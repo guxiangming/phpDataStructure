@@ -18,6 +18,7 @@ class LinkedList
    }
 
    public function add($value,$index=0){
+       
       array_splice($this->list,$index,0,$value);
    }
 
